@@ -1,0 +1,21 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1711468311
+calcface1.png::CompressedTexture2D::8268239390800769216::1710344135::1710344135::1::::<><>::
+calculator.gd::GDScript::-1::1711383249::0::1::::<>Control<>::
+calculator.tscn::PackedScene::6357960707097730535::1711383249::0::1::::<><>::res://calculator.gd<>uid://b3sbwa4txsw8c::::res://normal_equal_style.tres<>uid://dlyv6cncpk5bp::::res://assets/assets/Negate_btn.png<>uid://d3qx0usejrj0b::::res://assets/assets/Delete_btn.png<>uid://b4la1bcmrxbdu::::res://assets/assets/Division_btn.png<>uid://dtoxlqsc20uq8::::res://assets/assets/Multiplication_btn.png<>uid://dm6nqh4thfwsr::::res://assets/assets/Subtraction_btn.png<>uid://bg73wnitx3o2n::::res://assets/assets/Addition_btn.png<>uid://di6lhcct62hp7::::res://assets/assets/Equal_btn.png
+cds moosic (2).mp3::AudioStreamMP3::7430024463600985052::1710260053::1710260053::1::::<><>::
+ds.gd::GDScript::-1::1711468205::0::1::::<>Control<>::
+ds.tscn::PackedScene::8771558631132300675::1711468205::0::1::::<><>::res://ds.gd<>uid://dp2gxve56w1lc::::res://calcface1.png<>uid://dd4fogqrx6tpk::::res://cds moosic (2).mp3
+export_presets.cfg::TextFile::-1::1701972354::0::1::::<><>::
+icon.svg::CompressedTexture2D::870085184270266919::1701106398::1701106406::1::::<><>::
+normal_equal_style.tres::StyleBoxFlat::4388967155283828828::1701281667::0::1::::<><>::
+README.md::TextFile::-1::1701452735::0::1::::<><>::
+::res://assets/::1702401301
+::res://assets/assets/::1702401301
+Addition_btn.png::CompressedTexture2D::2875353892971690507::1701106826::1701106826::1::::<><>::
+Delete_btn.png::CompressedTexture2D::9159021931158347919::1701106826::1701106826::1::::<><>::
+Division_btn.png::CompressedTexture2D::4444651791314032070::1701106826::1701106826::1::::<><>::
+Equal_btn.png::CompressedTexture2D::7785449007079259106::1701106826::1701106826::1::::<><>::
+Multiplication_btn.png::CompressedTexture2D::8523168371633377865::1701106826::1701106826::1::::<><>::
+Negate_btn.png::CompressedTexture2D::7982214938894742889::1701106826::1701106826::1::::<><>::
+Subtraction_btn.png::CompressedTexture2D::8066342192055616261::1701106826::1701106826::1::::<><>::

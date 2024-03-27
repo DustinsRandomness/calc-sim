@@ -1,0 +1,14 @@
+TextEdit
+AudioStreamPlayer
+TextureRect
+Label
+Button
+ColorRect
+Panel
+Timer
+Container
+AudioStreamPlayer2D
+HBoxContainer
+GridContainer
+VBoxContainer
+MarginContainer

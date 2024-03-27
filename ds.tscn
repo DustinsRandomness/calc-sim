@@ -1,0 +1,76 @@
+[gd_scene load_steps=5 format=3 uid="uid://dw8aj3hlo6on0"]
+
+[ext_resource type="Script" path="res://ds.gd" id="1_cito5"]
+[ext_resource type="Texture2D" uid="uid://dp2gxve56w1lc" path="res://calcface1.png" id="2_rgyhq"]
+[ext_resource type="AudioStream" uid="uid://dd4fogqrx6tpk" path="res://cds moosic (2).mp3" id="3_qfcjk"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_vechi"]
+font_size = 21
+font_color = Color(0, 0, 0, 1)
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_cito5")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 0
+offset_top = -4.0
+offset_right = 665.0
+offset_bottom = 1247.0
+
+[node name="ColorRect" type="ColorRect" parent="Panel"]
+layout_mode = 0
+offset_top = 1.0
+offset_right = 665.0
+offset_bottom = 426.0
+
+[node name="Button1" type="Button" parent="Panel/ColorRect"]
+layout_mode = 0
+offset_left = 1.0
+offset_top = 426.0
+offset_right = 665.0
+offset_bottom = 725.0
+
+[node name="Button2" type="Button" parent="Panel/ColorRect"]
+layout_mode = 0
+offset_left = 1.0
+offset_top = 721.0
+offset_right = 664.0
+offset_bottom = 1008.0
+
+[node name="Button3" type="Button" parent="Panel/ColorRect"]
+layout_mode = 0
+offset_left = 1.0
+offset_top = 1003.0
+offset_right = 665.0
+offset_bottom = 1248.0
+
+[node name="Label" type="Label" parent="Panel/ColorRect"]
+layout_mode = 0
+offset_top = 242.0
+offset_right = 667.0
+offset_bottom = 424.0
+text = "Test"
+label_settings = SubResource("LabelSettings_vechi")
+autowrap_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/ColorRect"]
+layout_mode = 0
+offset_left = 233.0
+offset_top = 1.0
+offset_right = 406.0
+offset_bottom = 247.0
+texture = ExtResource("2_rgyhq")
+expand_mode = 1
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_qfcjk")
+
+[connection signal="pressed" from="Panel/ColorRect/Button1" to="." method="_on_button_1_pressed"]
+[connection signal="pressed" from="Panel/ColorRect/Button2" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="Panel/ColorRect/Button3" to="." method="_on_button_3_pressed"]
